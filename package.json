@@ -1,0 +1,87 @@
+{
+  "name": "cra-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "3.3.1",
+    "@material-ui/icons": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "date-fns": "^1.29.0",
+    "eslint": "^5.8.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "firebase": "^5.5.7",
+    "jwt-decode": "^2.2.0",
+    "material-ui": "^0.20.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^3.2.1",
+    "react-helmet": "^5.2.0",
+    "react-image-gallery": "^0.8.12",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^5.1.0",
+    "react-router": "^4.3.1",
+    "react-router-config": "^4.4.0-beta.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
+    "universal-rxjs-ajax": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .jsx --ext .js src/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "standard",
+      "standard-jsx"
+    ],
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "sort-keys": "off",
+      "no-useless-escape": "off"
+    }
+  },
+  "eslintIgnore": [
+    "node_modules/*",
+    ".next/*",
+    "build/*",
+    "public/*"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

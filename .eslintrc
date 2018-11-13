@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app", "standard", "standard-jsx"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-undef": [ 1 ],
+    "sort-keys": 2,
+    "no-useless-escape": "off"
+  }
+}
